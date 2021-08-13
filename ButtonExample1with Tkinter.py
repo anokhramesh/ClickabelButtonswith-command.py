@@ -1,9 +1,9 @@
 #Create Clicable buttons with command in tkinter.
 from tkinter import *
 root =Tk()
-root.title("ANOKHAUTOMATION")
-root.geometry("900x300")# frame size
-
+root.title("PYSERIAL APP")
+root.geometry("900x200")# frame size
+Label(root, text="ANOKHAUTOMATION",bg="pink",fg="blue",font="Times 20 bold").pack()
 def load1on():# function for Load 1 ON
     print("Load 1 is Turnd ON")
 def load1off():# function for Load 1 OFF
